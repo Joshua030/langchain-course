@@ -15,4 +15,5 @@ dependencies = [
 members = [
     "react-langchain",
     "rag-introduction",
+    "documentation-helper",
 ]
