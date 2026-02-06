@@ -12,6 +12,7 @@ resolution-markers = [
 members = [
     "documentation-helper",
     "langchain-course",
+    "langgraph-course",
     "rag-introduction",
     "react-langchain",
 ]
@@ -1999,6 +2000,31 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0f/07/2b1c042fa87d40cf2db5ca27dc4e8dd86f9a0436a10aa4361a8982718ae7/langgraph_checkpoint-3.0.1.tar.gz", hash = "sha256:59222f875f85186a22c494aedc65c4e985a3df27e696e5016ba0b98a5ed2cee0", size = 137785, upload-time = "2025-11-04T21:55:47.774Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/48/e3/616e3a7ff737d98c1bbb5700dd62278914e2a9ded09a79a1fa93cf24ce12/langgraph_checkpoint-3.0.1-py3-none-any.whl", hash = "sha256:9b04a8d0edc0474ce4eaf30c5d731cee38f11ddff50a6177eead95b5c4e4220b", size = 46249, upload-time = "2025-11-04T21:55:46.472Z" },
+]
+
+[[package]]
+name = "langgraph-course"
+version = "0.1.0"
+source = { virtual = "langgraph_course" }
+dependencies = [
+    { name = "black" },
+    { name = "isort" },
+    { name = "langchain" },
+    { name = "langchain-openai" },
+    { name = "langchain-tavily" },
+    { name = "langgraph" },
+    { name = "python-dotenv" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "black", specifier = ">=25.12.0" },
+    { name = "isort", specifier = ">=7.0.0" },
+    { name = "langchain", specifier = ">=1.2.0" },
+    { name = "langchain-openai", specifier = ">=1.1.6" },
+    { name = "langchain-tavily", specifier = ">=0.2.17" },
+    { name = "langgraph", specifier = ">=1.0.5" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
 ]
 
 [[package]]

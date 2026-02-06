@@ -12,5 +12,6 @@ def _format_sources(context_docs: List[Any]) -> List[str]:
         if(meta := (getattr(doc, "metadata", None) or {})) is not None
     ]
 
-st.set_page_config(page_title="LangChain Documentation Helper", page_icon="📚", layout="center")
+st.set_page_config(page_title="LangChain Documentation Helper", page_icon="📚", layout="centered")
+# pipenv run streamlit run main.py // command to run
    
