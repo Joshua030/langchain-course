@@ -214,3 +214,91 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ================================
+# Node.js
+# ================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build output
+dist/
+out/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Optional npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Stores (Vuex, Pinia, etc.)
+.vuepress/dist
+
+# Nuxt.js
+.nuxt
+
+# Next.js
+.next
+
+# Gatsby
+.cache/
+public
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# Temporary folders
+tmp/
+temp/
+
+# ================================
+# TypeScript
+# ================================
+
+# Compiled output
+*.js.map
+*.d.ts
+*.d.ts.map
+*.tsbuildinfo
+
+# Cache
+*.tscache
