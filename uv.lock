@@ -12,6 +12,7 @@ resolution-markers = [
 members = [
     "documentation-helper",
     "langchain-course",
+    "langgraph-basic",
     "langgraph-course",
     "rag-introduction",
     "react-langchain",
@@ -1987,6 +1988,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/7d/47/28f4d4d33d88f69de26f7a54065961ac0c662cec2479b36a2db081ef5cb6/langgraph-1.0.5.tar.gz", hash = "sha256:7f6ae59622386b60fe9fa0ad4c53f42016b668455ed604329e7dc7904adbf3f8", size = 493969, upload-time = "2025-12-12T23:05:48.224Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/23/1b/e318ee76e42d28f515d87356ac5bd7a7acc8bad3b8f54ee377bef62e1cbf/langgraph-1.0.5-py3-none-any.whl", hash = "sha256:b4cfd173dca3c389735b47228ad8b295e6f7b3df779aba3a1e0c23871f81281e", size = 157056, upload-time = "2025-12-12T23:05:46.499Z" },
+]
+
+[[package]]
+name = "langgraph-basic"
+version = "0.1.0"
+source = { virtual = "langgraph_basic" }
+dependencies = [
+    { name = "black" },
+    { name = "isort" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "black", specifier = ">=25.12.0" },
+    { name = "isort", specifier = ">=7.0.0" },
 ]
 
 [[package]]

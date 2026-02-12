@@ -17,4 +17,5 @@ members = [
     "rag-introduction",
     "documentation-helper",
     "langgraph_course",
+    "langgraph_basic",
 ]
