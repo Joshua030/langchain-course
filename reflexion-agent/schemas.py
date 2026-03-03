@@ -13,7 +13,7 @@ class AnswerQuestion(BaseModel):
     reflection: Reflection = Field(..., description="Your reflection on the initial answer.")
     search_queries: List[str] = Field(..., description="1-3 search queries for researching improvements to address the critique of your current answer.")
 
-class RevisedAnswer(AnswerQuestion):
+class ReviseAnswer(AnswerQuestion):
     """ Revised your original asnwer to your question."""
 
     references: List[str] = Field(
