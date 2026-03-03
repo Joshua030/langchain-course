@@ -35,8 +35,14 @@ Answer format (IMPORTANT):
 Rules:
 - "answer":
     - Short, clear, user-friendly.
-    - If you don't know, set:
-        "answer": "I don't know based on the available documentation."
+    - MUST be in the same language as the user's question.
+    - If you don't know, say so in the user's language.
+      Examples:
+        - English: "I don't know based on the available documentation."
+        - Spanish: "No tengo información al respecto en la documentación disponible."
+        - French: "Je ne dispose pas de cette information dans la documentation disponible."
+        - Portuguese: "Não tenho essa informação na documentação disponível."
+      Adapt naturally to any other language.
 - "citations":
     - One entry per supporting chunk you relied on.
     - Use the "source", "chunkId", and "preview" provided by kb_search.
